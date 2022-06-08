@@ -1,0 +1,26 @@
+@import './general.scss';
+
+.home-container{
+    width:100vw;
+    height:100vh;
+    background:red;
+    @include centrado;
+    .cover-home{
+        width:90vw;
+        height: 40vh;
+        background:black;
+        @include centrado;
+
+        .title-cover{
+            color:white;
+            font-family:$font_1;
+            letter-spacing: 10px;
+            font-size: 50px;
+            font-weight: 400;
+            position:absolute;
+            text-transform: uppercase;
+            transform:translateY(-180px);
+            letter-spacing: 1px;
+        }
+    }
+}

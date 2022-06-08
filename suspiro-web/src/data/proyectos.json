@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Proyecto de automatizacion",
+        "descripcion": "Descripcion del proyecto",
+        "imagen-proyecto": "/path/image.png",
+        "url":""
+    },
+    {
+        "title": "Proyecto de automatizacion 2",
+        "descripcion": "Descripcion del proyecto",
+        "imagen-proyecto": "/path/image.png",
+        "url":""
+    }
+
+    {
+        "title": "Proyecto de automatizacion 3",
+        "descripcion": "Descripcion del proyecto",
+        "imagen-proyecto": "/path/image.png",
+        "url":""
+    }
+]

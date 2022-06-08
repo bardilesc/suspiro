@@ -1,0 +1,33 @@
+// Import 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+$font_1: 'Roboto', sans-serif;
+
+@mixin centrado{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.menu{
+    position:fixed;
+    width:100vw;
+    height: 90px;
+    background:black;
+    color:white;
+    top:0;
+    left:0;
+    @include centrado;
+
+    .menu-item{
+        color:white;
+        font-size:16px;
+        font-weight: 300;
+        text-decoration:none;
+        margin:15px;
+        transition: 0.5s;
+    }
+
+    .menu-item:hover{
+        letter-spacing: 2px;
+    }
+}
